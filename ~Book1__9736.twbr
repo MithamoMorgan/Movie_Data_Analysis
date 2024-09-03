@@ -1,0 +1,1089 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='imdb_top_1000_clean' inline='true' name='federated.1bx6bt60fmywav122b2260xoplz9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='imdb_top_1000_clean' name='textscan.0e37u0r1vxhpqy1bruudv0wq1eee'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/Lux ft DSEAfrica DS Boot Camp/Project' filename='imdb_top_1000_clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0e37u0r1vxhpqy1bruudv0wq1eee' name='imdb_top_1000_clean.csv' table='[imdb_top_1000_clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Series_Title' ordinal='0' />
+            <column datatype='integer' name='Released_Year' ordinal='1' />
+            <column datatype='string' name='Certificate' ordinal='2' />
+            <column datatype='integer' name='Runtime' ordinal='3' />
+            <column datatype='string' name='Genre' ordinal='4' />
+            <column datatype='real' name='IMDB_Rating' ordinal='5' />
+            <column datatype='real' name='Meta_score' ordinal='6' />
+            <column datatype='string' name='Director' ordinal='7' />
+            <column datatype='string' name='Star1' ordinal='8' />
+            <column datatype='string' name='Star2' ordinal='9' />
+            <column datatype='string' name='Star3' ordinal='10' />
+            <column datatype='string' name='Star4' ordinal='11' />
+            <column datatype='integer' name='No_of_Votes' ordinal='12' />
+            <column datatype='real' name='Gross' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0e37u0r1vxhpqy1bruudv0wq1eee' name='imdb_top_1000_clean.csv' table='[imdb_top_1000_clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Series_Title' ordinal='0' />
+            <column datatype='integer' name='Released_Year' ordinal='1' />
+            <column datatype='string' name='Certificate' ordinal='2' />
+            <column datatype='integer' name='Runtime' ordinal='3' />
+            <column datatype='string' name='Genre' ordinal='4' />
+            <column datatype='real' name='IMDB_Rating' ordinal='5' />
+            <column datatype='real' name='Meta_score' ordinal='6' />
+            <column datatype='string' name='Director' ordinal='7' />
+            <column datatype='string' name='Star1' ordinal='8' />
+            <column datatype='string' name='Star2' ordinal='9' />
+            <column datatype='string' name='Star3' ordinal='10' />
+            <column datatype='string' name='Star4' ordinal='11' />
+            <column datatype='integer' name='No_of_Votes' ordinal='12' />
+            <column datatype='real' name='Gross' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Series_Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Series_Title]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Series_Title</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Released_Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Released_Year]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Released_Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Certificate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Certificate]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Certificate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Runtime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Runtime]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Runtime</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IMDB_Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IMDB_Rating]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>IMDB_Rating</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meta_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Meta_score]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Meta_score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Director]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Director</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Star1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Star1]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Star1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Star2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Star2]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Star2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Star3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Star3]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Star3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Star4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Star4]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Star4</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No_of_Votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No_of_Votes]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>No_of_Votes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross]</local-name>
+            <parent-name>[imdb_top_1000_clean.csv]</parent-name>
+            <remote-alias>Gross</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:IMDB_Rating:qk]&quot;' value='Avg Rating' />
+          <alias key='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:Meta_score:qk]&quot;' value='Avg Score' />
+          <alias key='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:Runtime:qk]&quot;' value='Avg Runtime' />
+          <alias key='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[cnt:Series_Title:qk]&quot;' value='No of Movies' />
+          <alias key='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Director:qk]&quot;' value='No of Directors' />
+          <alias key='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]&quot;' value='Total Gross' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Gross]' role='measure' type='quantitative' />
+      <column caption='IMDB Rating' datatype='real' name='[IMDB_Rating]' role='measure' type='quantitative' />
+      <column caption='Meta score' datatype='real' name='[Meta_score]' role='measure' type='quantitative' />
+      <column caption='No of Votes' datatype='integer' name='[No_of_Votes]' role='measure' type='quantitative' />
+      <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Runtime]' role='measure' type='quantitative' />
+      <column caption='Series Title' datatype='string' name='[Series_Title]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='imdb_top_1000_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]' role='measure' type='quantitative' />
+      <column-instance column='[IMDB_Rating]' derivation='Avg' name='[avg:IMDB_Rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Meta_score]' derivation='Avg' name='[avg:Meta_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Runtime]' derivation='Avg' name='[avg:Runtime:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Series_Title]' derivation='Count' name='[cnt:Series_Title:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Director]' derivation='CountD' name='[ctd:Director:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gross]' derivation='Sum' name='[sum:Gross:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0f94njt1gk0kbh13oy0c81pb40j5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/01/2024 04:25:33 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Series_Title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Series_Title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Series_Title</remote-alias>
+              <ordinal>0</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>998</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Released_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Released_Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Released_Year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Certificate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Certificate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Certificate</remote-alias>
+              <ordinal>2</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Runtime</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Runtime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Runtime</remote-alias>
+              <ordinal>3</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>140</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genre</remote-alias>
+              <ordinal>4</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>202</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IMDB_Rating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IMDB_Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IMDB_Rating</remote-alias>
+              <ordinal>5</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Meta_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Meta_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Meta_score</remote-alias>
+              <ordinal>6</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>64</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Director</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Director]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Director</remote-alias>
+              <ordinal>7</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>548</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Star1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Star1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Star1</remote-alias>
+              <ordinal>8</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>660</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Star2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Star2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Star2</remote-alias>
+              <ordinal>9</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>840</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Star3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Star3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Star3</remote-alias>
+              <ordinal>10</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>891</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Star4</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Star4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Star4</remote-alias>
+              <ordinal>11</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>938</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No_of_Votes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No_of_Votes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No_of_Votes</remote-alias>
+              <ordinal>12</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>998</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gross</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Gross]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gross</remote-alias>
+              <ordinal>13</ordinal>
+              <family>imdb_top_1000_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>823</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Kenya&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='imdb_top_1000_clean.csv' id='imdb_top_1000_clean.csv_8499AA1E0F5243F7B10255E9D1FB0F95'>
+            <properties context=''>
+              <relation connection='textscan.0e37u0r1vxhpqy1bruudv0wq1eee' name='imdb_top_1000_clean.csv' table='[imdb_top_1000_clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Series_Title' ordinal='0' />
+                  <column datatype='integer' name='Released_Year' ordinal='1' />
+                  <column datatype='string' name='Certificate' ordinal='2' />
+                  <column datatype='integer' name='Runtime' ordinal='3' />
+                  <column datatype='string' name='Genre' ordinal='4' />
+                  <column datatype='real' name='IMDB_Rating' ordinal='5' />
+                  <column datatype='real' name='Meta_score' ordinal='6' />
+                  <column datatype='string' name='Director' ordinal='7' />
+                  <column datatype='string' name='Star1' ordinal='8' />
+                  <column datatype='string' name='Star2' ordinal='9' />
+                  <column datatype='string' name='Star3' ordinal='10' />
+                  <column datatype='string' name='Star4' ordinal='11' />
+                  <column datatype='integer' name='No_of_Votes' ordinal='12' />
+                  <column datatype='real' name='Gross' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1bx6bt60fmywav122b2260xoplz9'>
+      <datasources>
+        <datasource caption='imdb_top_1000_clean' name='federated.1bx6bt60fmywav122b2260xoplz9' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1bx6bt60fmywav122b2260xoplz9'>
+        <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Released_Year]' derivation='None' name='[none:Released_Year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <filter class='quantitative' column='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]' included-values='in-range'>
+        <min>1961</min>
+        <max>2019</max>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='No of movies by year trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='imdb_top_1000_clean' name='federated.1bx6bt60fmywav122b2260xoplz9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bx6bt60fmywav122b2260xoplz9'>
+            <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+            <column caption='Series Title' datatype='string' name='[Series_Title]' role='dimension' type='nominal' />
+            <column-instance column='[Series_Title]' derivation='CountD' name='[ctd:Series_Title:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Released_Year]' derivation='None' name='[none:Released_Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='1' field='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.31784531474113464' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='73' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk] + [federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk])</rows>
+        <cols>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]</cols>
+      </table>
+      <simple-id uuid='{05FC67E4-8EE7-4EBC-8264-43BC67ECE492}' />
+    </worksheet>
+    <worksheet name='Overview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='imdb_top_1000_clean' name='federated.1bx6bt60fmywav122b2260xoplz9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bx6bt60fmywav122b2260xoplz9'>
+            <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Gross]' role='measure' type='quantitative' />
+            <column caption='IMDB Rating' datatype='real' name='[IMDB_Rating]' role='measure' type='quantitative' />
+            <column caption='Meta score' datatype='real' name='[Meta_score]' role='measure' type='quantitative' />
+            <column caption='No of Votes' datatype='integer' name='[No_of_Votes]' role='measure' type='quantitative' />
+            <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+            <column datatype='integer' name='[Runtime]' role='measure' type='quantitative' />
+            <column caption='Series Title' datatype='string' name='[Series_Title]' role='dimension' type='nominal' />
+            <column-instance column='[IMDB_Rating]' derivation='Avg' name='[avg:IMDB_Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Meta_score]' derivation='Avg' name='[avg:Meta_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Runtime]' derivation='Avg' name='[avg:Runtime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Series_Title]' derivation='Count' name='[cnt:Series_Title:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Director]' derivation='CountD' name='[ctd:Director:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Released_Year]' derivation='None' name='[none:Released_Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gross]' derivation='Sum' name='[sum:Gross:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[No_of_Votes]' derivation='Sum' name='[sum:No_of_Votes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bx6bt60fmywav122b2260xoplz9].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[sum:No_of_Votes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:IMDB_Rating:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:Meta_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[cnt:Series_Title:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:Runtime:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Director:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1bx6bt60fmywav122b2260xoplz9].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[sum:No_of_Votes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:IMDB_Rating:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[avg:Meta_score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1bx6bt60fmywav122b2260xoplz9].[cnt:Series_Title:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[:Measure Names]</column>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1bx6bt60fmywav122b2260xoplz9].[:Measure Names]' value='173' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1bx6bt60fmywav122b2260xoplz9].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1bx6bt60fmywav122b2260xoplz9].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{2BF430AF-C004-4ED5-A2D5-D5C4C6D930EB}' />
+    </worksheet>
+    <worksheet name='Top 5 Directors by Gross'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='imdb_top_1000_clean' name='federated.1bx6bt60fmywav122b2260xoplz9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bx6bt60fmywav122b2260xoplz9'>
+            <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Gross]' role='measure' type='quantitative' />
+            <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Director]' derivation='None' name='[none:Director:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Released_Year]' derivation='None' name='[none:Released_Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gross]' derivation='Sum' name='[sum:Gross:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Gross])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Director:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]</column>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]</rows>
+        <cols>[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]</cols>
+      </table>
+      <simple-id uuid='{9B4110B1-3C40-43FF-8A18-879F64F281BE}' />
+    </worksheet>
+    <worksheet name='Top 5 Directors by movie count'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='imdb_top_1000_clean' name='federated.1bx6bt60fmywav122b2260xoplz9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bx6bt60fmywav122b2260xoplz9'>
+            <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+            <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+            <column caption='Series Title' datatype='string' name='[Series_Title]' role='dimension' type='nominal' />
+            <column-instance column='[Series_Title]' derivation='CountD' name='[ctd:Series_Title:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Director]' derivation='None' name='[none:Director:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Released_Year]' derivation='None' name='[none:Released_Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([Series_Title])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Director:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]</column>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1bx6bt60fmywav122b2260xoplz9].[ctd:Series_Title:qk]</rows>
+        <cols>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Director:nk]</cols>
+      </table>
+      <simple-id uuid='{29AF6B7A-9DD2-4199-96FF-FE8623D9C2BD}' />
+    </worksheet>
+    <worksheet name='Top 5 movies by Gross'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='imdb_top_1000_clean' name='federated.1bx6bt60fmywav122b2260xoplz9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bx6bt60fmywav122b2260xoplz9'>
+            <column datatype='real' name='[Gross]' role='measure' type='quantitative' />
+            <column caption='Released Year' datatype='integer' name='[Released_Year]' role='dimension' type='quantitative' />
+            <column caption='Series Title' datatype='string' name='[Series_Title]' role='dimension' type='nominal' />
+            <column-instance column='[Released_Year]' derivation='None' name='[none:Released_Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Series_Title]' derivation='None' name='[none:Series_Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gross]' derivation='Sum' name='[sum:Gross:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Series_Title:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Gross])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Series_Title:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Series_Title:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Series_Title:nk]</column>
+            <column>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1bx6bt60fmywav122b2260xoplz9].[sum:Gross:qk]</rows>
+        <cols>[federated.1bx6bt60fmywav122b2260xoplz9].[none:Series_Title:nk]</cols>
+      </table>
+      <simple-id uuid='{F18CB2F5-1804-4821-9D6D-0C76FDD16BE8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1200' minheight='800' minwidth='1200' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='15' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='98000' id='13' type-v2='layout-basic' w='98666' x='667' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='100000' id='3' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+          <zone h='100000' id='5' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+            <zone fixed-size='694' h='100000' id='8' is-fixed='true' name='Top 5 Directors by Gross' w='58500' x='0' y='0'>
+              <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='100000' id='9' name='Top 5 Directors by movie count' w='41500' x='58500' y='0'>
+              <layout-cache cell-count-w='5' type-h='fixed' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='10' param='vert' type-v2='layout-flow' w='95734' x='2133' y='1143'>
+                <zone fixed-size='280' h='41143' id='8' is-fixed='true' name='Top 5 Directors by Gross' w='95734' x='2133' y='1143'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41143' id='9' is-fixed='true' name='Top 5 Directors by movie count' w='95734' x='2133' y='42286'>
+                  <layout-cache cell-count-w='4' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FABC6B80-8CD2-4858-9674-D7679F8AA627}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Overview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5AF1ECF7-8CF7-47C4-8D75-588F53E3E2EC}' />
+    </window>
+    <window class='worksheet' name='Top 5 Directors by Gross'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1bx6bt60fmywav122b2260xoplz9].[none:Released_Year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{FD684FC3-D563-41A7-A983-5E4099A9B985}' />
+    </window>
+    <window class='worksheet' name='Top 5 Directors by movie count'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{ED05605E-CCAE-4B2B-B395-319A244CC243}' />
+    </window>
+    <window class='worksheet' name='No of movies by year trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A1F3B11C-0CDA-49E0-8582-F4CECB04F8AA}' />
+    </window>
+    <window class='worksheet' name='Top 5 movies by Gross'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D43ADF33-7544-43BF-B916-0B6B7474127B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Top 5 Directors by Gross'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 5 Directors by movie count'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{AEC6E6C0-2B39-4AA3-9BA5-EA77A47CFC6D}' />
+    </window>
+  </windows>
+</workbook>
