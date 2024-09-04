@@ -35,11 +35,11 @@ The data did not have any duplicates.
 
 ### c. Handling data types
 All the columns by default were objects so I had to convert the numeric columns to numeric data types. These columns were;
-(i). Runtime- int32
-(ii). IMDB_Rating- float64
-(iii). Meta_Score- float64
-(iv). No_of_Votes- int64
-(v). Gross- float64
+(i). Runtime- int32 </br>
+(ii). IMDB_Rating- float64 </br>
+(iii). Meta_Score- float64 </br>
+(iv). No_of_Votes- int64 </br>
+(v). Gross- float64 </br>
 
 ### d. Addressing Inconsistent data
 The only inconsistency that was to be addressed in the data was removing leading and trailling white spaces in non-numerical columns.
