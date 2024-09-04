@@ -94,6 +94,7 @@ I reolved the issue by using the melt() function in pandas to combine star colum
 This was done so as to perform "single star" analysis eg Top 10 stars by Gross.
 
 ## Dashboard Creation
+![](https://github.com/MorganTheAnalyst/Movie_Data_Analysis/blob/master/Images/Dashboard_Screenshot.jpg)
 I used Tableau as my visualization tool to create an interactive dashboard that a user can control based on their preference by use of filters created to enhance the interactivity. The dashboard has 3 main sections which are, the heading and filter section, the overview section which gives a quick summary and the visualization section which contains visuals like bar charts.
 
 The data that was used in creation of the dashboard ("imdb_data_clean.csv"), is the data that was stored in data2 which was then saved as a csv file.
