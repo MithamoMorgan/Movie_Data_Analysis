@@ -4,7 +4,7 @@
 The aim of the project was to analyze a movie dataset and explore various aspects such as movie genres,ratings, director popularity, and release year trends. Additionaly, an interactive dashboard was to be created using tools like Tableau and power Bi.
 
 ## Data Source:
-I downloaded the data used in this project from Kaggle which consisted of all movies in the internet movies database (IMDb) from the year 1920 to 2020. The data had 16 columns and 999 rows.Here is the [link](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)
+I downloaded the data used in this project from Kaggle which consisted of all movies in the internet movies database (IMDb) from the year 1920 to 2020. The data had 16 columns and 999 rows.Here is the [link](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows) to the data set. 
 The columns were:
 1. Poster_Link
 2. Series_Title
