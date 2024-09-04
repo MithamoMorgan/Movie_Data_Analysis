@@ -34,7 +34,7 @@ I dropped Poster_Link and Overview columns which were not to be used for analysi
 The data did not have any duplicates.
 
 ### c. Handling data types
-All the columns by default were objects so I had to convert the numeric columns to numeric data types. These columns were;
+All the columns by default were objects so I had to convert the numeric columns to numeric data types. These columns were; <br>
 (i). Runtime- int32 </br>
 (ii). IMDB_Rating- float64 </br>
 (iii). Meta_Score- float64 </br>
@@ -46,32 +46,32 @@ The only inconsistency that was to be addressed in the data was removing leading
 
 ## Exploratory Data Analysis:
 ### 1. Genre  Analysis
-Under genre analysis some of the aspects that were explored were;
-(i). The number of movie per Genre
-(ii). Average IMDb Rating per genre
-(iii). Number of votes per genre
-(iv). Total gross per genre
+Under genre analysis some of the aspects that were explored were; <br>
+(i). The number of movie per Genre <br>
+(ii). Average IMDb Rating per genre <br>
+(iii). Number of votes per genre <br>
+(iv). Total gross per genre <br>
 
 ### 2. Direcor Analysis:
-(i). Top 10 Direcors by number of Movies
-(ii). Top 10 Direcors by Gross
-(iii). Top 10 direcors by rating
-(iv). Top 10 direcors by meta_score
-(v). Top 10 directors by runtime
+(i). Top 10 Direcors by number of Movies <br>
+(ii). Top 10 Direcors by Gross <br>
+(iii). Top 10 direcors by rating <br>
+(iv). Top 10 direcors by meta_score <br>
+(v). Top 10 directors by runtime <br>
 
 ### 3. Star Analysis:
-(i). Top 10 stars by Gross
-(ii). Top 10 stars by rating
-(iii). Combination of stars with the highest mean gross
-(iv). Combination of stars with the highest IMDb Rating
+(i). Top 10 stars by Gross <br>
+(ii). Top 10 stars by rating <br>
+(iii). Combination of stars with the highest mean gross <br>
+(iv). Combination of stars with the highest IMDb Rating <br>
 
 ### 4. Certificate Analysis:
 ### 5. Time Analysis:
-(i). Movie release trend
-(ii). Average gross trend
-(iii). Rating trend
-(iv). Meta score trend
-(v). Number of votes trend
+(i). Movie release trend <br>
+(ii). Average gross trend <br>
+(iii). Rating trend <br>
+(iv). Meta score trend <br>
+(v). Number of votes trend <br>
 
 ### 6. More Analysis:
 (i). Correlation  between numerical features.
