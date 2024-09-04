@@ -1,5 +1,5 @@
 # IMDb Analysis
-![](https://github.com/MorganTheAnalyst/Movie_Data_Analysis/blob/master/Images/Theme.jpg)
+![](https://github.com/MorganTheAnalyst/Movie_Data_Analysis/blob/master/Images/Header.jpg)
 ## Overview:
 The aim of the project was to analyze a movie dataset and explore various aspects such as movie genres,ratings, director popularity, and release year trends. Additionaly, an interactive dashboard was to be created using tools like Tableau and power Bi.
 
